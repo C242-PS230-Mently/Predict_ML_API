@@ -25,10 +25,10 @@ pip install -r requirements.txt
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/C242-PS230-Mently/PredictAPI_ML.git
+git clone https://github.com/C242-PS230-Mently/Predict_ML_API.git
 
 # Change directory
-cd PredictAPI_ML # change with your folder name
+cd Predict_ML_API # change with your folder name
 
 # Install dependencies
 pip install -r requirements.txt
