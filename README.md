@@ -60,7 +60,18 @@ The machine learning model `(Model_Fix_RF_TF.pkl)` is loaded during API initiali
 - **Endpoint**: /predict
 - **Method**: POST
 - **Input**: JSON data with features for prediction
-- **Output**: *prediction*, *accuracy percentage*, and *list of related scholarship information*.
+- **Output**: ``` {
+    "message": "Prediksi berhasil",
+    "predictions": {
+        "Level Bipolar": 3,
+        "Level Depresi": 1,
+        "Level Kecemasan": 2,
+        "Level OCD": 1,
+        "Level Skizofrenia": 1
+    },
+    "statusCode": 200
+} ```
+
 
 ## License
 Copyright © 2024 Mently Group . All rights reserved.
