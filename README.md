@@ -60,7 +60,9 @@ The machine learning model `(Model_Fix_RF_TF.pkl)` is loaded during API initiali
 - **Endpoint**: /predict
 - **Method**: POST
 - **Input**: JSON data with features for prediction
-- **Output**: ``` {
+- **Output**: 
+``` plaintext 
+{
     "message": "Prediksi berhasil",
     "predictions": {
         "Level Bipolar": 3,
@@ -73,7 +75,8 @@ The machine learning model `(Model_Fix_RF_TF.pkl)` is loaded during API initiali
     },
     "statusCode": 200
 
-} ```
+} 
+```
 
 
 ## License
