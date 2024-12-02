@@ -65,11 +65,14 @@ The machine learning model `(Model_Fix_RF_TF.pkl)` is loaded during API initiali
     "predictions": {
         "Level Bipolar": 3,
         "Level Depresi": 1,
-        "Level Kecemasan": 2,
-        "Level OCD": 1,
-        "Level Skizofrenia": 1
+        "Level Kecemasan": 3,
+        "Level OCD": 2,
+        "Level Skizofrenia": 2,
+        "Nama Solusi": "Solusi 7: Konsultasi Psikolog untuk Terapi Intensif",
+        "Solusi": "Pertimbangkan untuk konsultasi dengan psikolog untuk sesi terapi yang lebih intens. Cobalah untuk melibatkan diri dalam aktivitas sosial yang positif dan menyenangkan, serta tetap menjaga pola makan sehat dan tidur yang cukup."
     },
     "statusCode": 200
+
 } ```
 
 
